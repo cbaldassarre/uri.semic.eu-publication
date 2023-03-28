@@ -615,6 +615,6 @@ workflows:
             - render-xsd-details
             - render-voc-rdf
       - create-artifact:
-          repository: git@github.com:cbaldassarre/uri.semic.eu-publication.git
+          repository: git@github.com:cbaldassarre/training_toolchain.git
           requires:
             - expand-links
