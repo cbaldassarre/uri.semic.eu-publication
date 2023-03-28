@@ -79,9 +79,9 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
+            - "54:7c:d1:40:a8:e1:e7:5f:d7:27:4b:f3:6f:59:57:92"
+            - "67:1c:61:91:25:8b:cb:62:0f:f7:bd:ad:d8:20:bb:54"
             - "62:fc:9e:7a:a6:4b:1f:ac:5f:7c:a2:0b:10:bb:fe:ad"
-            - "2f:dd:97:f0:18:4c:a2:82:66:b2:81:b4:e8:57:92:ce"
-            - "69:c3:d4:ac:8e:41:81:85:d5:1b:3c:bd:b3:48:6e:eb"
       - run: $PWD/scripts/update_sshconfig.sh private1
       - run: $PWD/scripts/update_sshconfig.sh uri.semic.eu-thema
       - run: mkdir -p workspace
@@ -483,7 +483,7 @@ jobs:
           at: /tmp/workspace
       - add_ssh_keys:
           fingerprints:
-            - "69:c3:d4:ac:8e:41:81:85:d5:1b:3c:bd:b3:48:6e:eb"
+            - "67:1c:61:91:25:8b:cb:62:0f:f7:bd:ad:d8:20:bb:54"
       - run:
           name: Checkout target repo
           workdir: /tmp
