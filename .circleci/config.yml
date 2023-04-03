@@ -615,6 +615,6 @@ workflows:
             - render-xsd-details
             - render-voc-rdf
       - create-artifact:
-          repository: git@github.com:cbaldassarre/training_toolchain.git
+          repository: git@github.com:cbaldassarre/toolchain_training.git
           requires:
             - expand-links
